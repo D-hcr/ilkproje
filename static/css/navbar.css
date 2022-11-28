@@ -1,0 +1,93 @@
+#r {
+    position: relative;
+  
+  left: 170px;
+  bottom: -9px;
+  }
+  #sb {
+    position : relative;
+    margin-left: 165px;
+    top: 12px;
+    width: 550px;
+    height: 45px;
+    background-color: white;
+    box-shadow: 0 0 6px 4px rgb(237, 234, 234); 
+    border:  2px white ;
+    border-radius: 11px;
+  }
+  #sb::-webkit-input-placeholder { color : grey}
+  #sb::-webkit-input-placeholder{
+    position: relative;
+    bottom: 3px;
+  }
+  #sb:-moz-placeholder {color : grey }
+  #sb:-ms-input-placeholder { color : grey }
+  
+  #uc{
+    position: relative;
+    margin-left: 142px;
+    font-size: 13.78px;
+    font-weight: bold;
+    
+   }
+  ul li{
+       padding-left: 32px;
+     
+  }
+  #k{
+    color: black;
+  } 
+  #navbarNavDropdown{
+    background-color: white;
+    
+    
+  }
+  #svg{
+    position: relative;
+    bottom: -25px;
+    right: 65px;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  a 
+  {
+    text-decoration:none;
+    position:relative;
+  } 
+  a::before{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:0px;
+    height:3px;
+    background:#000;
+    opacity:0;
+    -webkit-transition: width 2s; 
+      transition: width 2s;
+  }
+  
+  a:hover {
+  color: black;
+  text-decoration: underline;
+  text-underline-position: under;
+  opacity:1;
+  width:100%;
+  
+  }
+  #svg:hover {
+  color:black;
+  text-decoration: underline}
+
+  #btsearch {
+    position: relative;
+    width: 50px;
+    height: 30px;
+    left: -60px;
+    top: 4px;
+    border: white;
+  }
+  :root {
+    color: white;
+  }
