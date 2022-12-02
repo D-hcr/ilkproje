@@ -1,8 +1,77 @@
-#r {
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color.5s;
+  }
+  
+  .sidenav {
+    height: 100%;
+    position: fixed;
+    width: 0;
+    z-index: 1;
+    top: 0;
+    left:1150px;
+    background-color:white;
+    overflow-x: hidden;
+    transition: -0.5s;
+    padding-top: 60px;
+    
+  }
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #191414;
+  }
+  
+  
+  .sidenav .closebtn {
+    position: relative;
+    top: -65px;
+    right: -212px;
+    font-size: 28px;
+    margin-left: 50px;
+    color:grey;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  #sp{
+  
+    position: relative;
+    left: 0px;
+    bottom: -10px;
+       
+  } 
+  #ka{
+    position: relative;
+    top: -5px;
+    right: 5px;
+    font-size: 15px;
+    color: grey;
+  }
+  #o{
+    position: relative;
+    left: 30px;
+    top: -80px;
+    font-size: 32px;
+    letter-spacing: .055em;
+    font-weight: 400;
+    font-family: var( DM Serif Display);
+    font-weight: 700;
+    font-family: var(Overpass),"Arial","sans-serif"; /*bunu ara yazısı içinde uygulayabiliriz eşitlemesi için*/
+  }
+  #r {
     position: relative;
   
   left: 170px;
-  bottom: -9px;
+  bottom: -1px;
   }
   #sb {
     position : relative;
@@ -44,8 +113,8 @@
   }
   #svg{
     position: relative;
-    bottom: -25px;
-    right: 65px;
+    bottom: -11px;
+    right: 45px;
     color: black;
     text-decoration: none;
     font-size: 14px;
@@ -90,4 +159,61 @@
   }
   :root {
     color: white;
+  }
+
+  #email {
+    width: 300px;
+    position: relative;
+    left: 35px;
+    bottom: 40px;
+  }
+  #emaillabel {
+    position: relative;
+    left: 35px;
+    bottom: 40px;
+  }
+  #f2g {
+    position: relative;
+    left: 35px;
+    bottom: 10px;
+  }
+  #pswi {
+    width: 300px;
+  }
+  #yıldız {
+    color: red;
+  }
+  #login {
+   
+   
+    position: relative;
+    left: 35px;
+    bottom: -10px; 
+  }
+  #üyeg {
+    background-color: #293355;
+    color: white;
+    width: 300px;
+    height: 50px;
+  }
+  #üyeol {
+    background-color: #293355 ;
+    color: white;
+    width: 300px;
+    position: relative;
+    left: 35px;
+    bottom: -30px;
+    text-decoration: none;
+    font-size:medium;
+    align-items: center;
+
+    
+  }
+  #pswun {
+    font-size: small;
+    position: relative;
+    left: -20px;
+  }
+  #cd {
+    border-bottom: 1px  solid lightgray;
   }

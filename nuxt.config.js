@@ -12,7 +12,21 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { 
+        rel: 'icon', 
+        type: 'image/x-icon',
+        href: '/favicon.ico'
+      },
+      { 
+        rel: 'stylesheet', 
+        href: '/css/bootstrap.min.css'
+      }
+    ],
+    script: [
+      {
+        src: '/js/bootstrap.bundle.min.js',
+        type: 'text/javascript'
+      }
     ]
   },
 

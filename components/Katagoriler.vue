@@ -4,7 +4,7 @@
     <div  class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul id="uc" class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">KADIN</a>
+          <a id="k" class="nav-link active" aria-current="page" href="#">KADIN</a>
         </li>
        
         <li class="nav-item">
