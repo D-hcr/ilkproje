@@ -1,14 +1,14 @@
 <template>
- <div>
-   <header>
-      <Navbar/>
-      <Katagoriler/>
-   </header>
-   <body>
-    <slider/>
-     
-   </body>
- </div> 
+  <div>
+  <header>
+     <Navbar/>
+     <Katagoriler/>
+  </header>
+  <body>
+   <slider/>
+   <KatagoriCard/>
+  </body>
+</div>
 </template>
 
 <script >
@@ -19,8 +19,18 @@
 
 <style >
  
-@import url("static/css/navbar.css");  
+
 
 
 </style>
 
+<!-- <div>
+  <header>
+     <Navbar/>
+     <Katagoriler/>
+  </header>
+  <body>
+   <slider/>
+   <KatagoriCard/>
+  </body>
+</div>  -->
