@@ -6,38 +6,39 @@
           <div class="dropdown">
             <li class="nav-item">
               <button id="k" class="dropbtn">KADIN
-                <a class="nav-link active" aria-current="page" href="#"></a>
+                <a class="nav-link active" aria-current="page" href="http://localhost:3000/Kategori/Kadin"></a>
               </button>       
               <div class="dropdown-content">
-                <a href="#">ÇANTA </a>
-                <a href="#">PARFÜM &amp; DEODORANT </a>
-                <a href="#">AKSESUAR </a>
-                <a href="#">SAAT </a>
-                <a href="#">GÜNEŞ GÖZLÜĞÜ </a>
-                <a href="#">SWEATSHİRT </a>
+                <a href="http://localhost:3000/Kategori/KadinC">ÇANTA </a>
+                <a href="http://localhost:3000/Kategori/KadinD">PARFÜM &amp; DEODORANT </a>
+                <a href="http://localhost:3000/Kategori/KadinA">AKSESUAR </a>
+                <a href="http://localhost:3000/Kategori/KadinS">SAAT </a>
+                <a href="http://localhost:3000/Kategori/KadinG">GÜNEŞ GÖZLÜĞÜ </a>
+                <a href="http://localhost:3000/Kategori/KadinSw">SWEATSHİRT </a>
               </div>
             </li>
           </div>  
           <div class="dropdown">
             <li class="nav-item">
               <button id="k" class="dropbtn">ERKEK
-                <a class="nav-link" href="#"></a>
+                <a class="nav-link" href="http://localhost:3000/Kategori/Erkek"></a>
               </button>
               <div class="dropdown-content">
-                <a href="#">SAAT </a>
-                <a href="#">ÇANTA </a>
-                <a href="#">SWEATSHİRT </a>
-                <a href="#">AKSESUAR </a>
-                <a href="#">GÜNEŞ GÖZLÜĞÜ </a>
-                <a href="#">PARFÜM &amp; DEODORANT </a>            
+                
+                <a href="http://localhost:3000/Kategori/ErkekS">SAAT </a>
+                <a href="http://localhost:3000/Kategori/ErkekC">ÇANTA </a>
+                <a href="http://localhost:3000/Kategori/ErkekSw">SWEATSHİRT </a>
+                <a href="http://localhost:3000/Kategori/ErkekA">AKSESUAR </a>
+                <a href="http://localhost:3000/Kategori/ErkekG">GÜNEŞ GÖZLÜĞÜ </a>
+                <a href="http://localhost:3000/Kategori/ErkekD">PARFÜM &amp; DEODORANT </a>            
               </div>
             </li>
           </div> 
           <li class="nav-item">
-            <a id="k" class="nav-link" href="#">RETRO SAAT</a>
-          </li>
+            <a id="k" class="nav-link" href="http://localhost:3000/Kategori/RetroSaat">RETRO SAAT</a> 
+          </li>  
           <li class="nav-item">
-            <a id="k" class="nav-link" href="#">EKRAN GÖZLÜĞÜ</a>
+            <a id="k" class="nav-link" href="http://localhost:3000/Kategori/EkranGozlugu">EKRAN GÖZLÜĞÜ</a>
           </li>
        
       </ul>
@@ -55,6 +56,7 @@
           </a>
         </span>  
       </div>
+      
     </div>
   </div>
 </nav>

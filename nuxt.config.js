@@ -26,7 +26,12 @@ export default {
       {
         src: '/js/bootstrap.bundle.min.js',
         type: 'text/javascript'
+      },
+      {
+        src: '/.nuxt/router.js',
+        type: 'text/javascript'
       }
+      
     ]
   },
 
@@ -52,4 +57,6 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
+  
+  
 }

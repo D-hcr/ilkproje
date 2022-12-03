@@ -4,7 +4,7 @@
         <div  class="container-fluid">
           <div class="row p-2 pt-3 pb-3 d-flex align-items-center">
             <div id="r" class="col-md-2 mt-2">
-              <a  href="http://localhost:3000">
+              <a href="http://localhost:3000/">
                 <img class="d-none d-md-flex"  src="//cdn.shopify.com/s/files/1/0485/5264/0672/files/Aqua_di_Polo_Logo_150x167-new.png?v=1630" width="100" height="50" >
               </a>
             </div>
