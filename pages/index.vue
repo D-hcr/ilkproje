@@ -9,6 +9,7 @@
     <slider/>
     <KatagoriCard/>
     <ProductSlider/>
+    <ProductSlider2/>
    </body>
  </div>
 </template>
