@@ -14,6 +14,7 @@
     <YanyanaReklam/>
     <YanyanaReklam2/>
     <YanyanaReklam3/>
+    <ProductSlider3/>
    </body>
  </div>
 </template>
