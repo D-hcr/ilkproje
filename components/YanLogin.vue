@@ -41,17 +41,17 @@
                     </label>
                     <input id="pswi" class="form-control" type="password" value="" placeholder="Şifre" name="customer[password]">
                   </div>
-                    <div id="login" class="action-btn">
+                    <span id="login" class="action-btn">
                       <input id="üyeg" type="submit" class="btn btn-login" value="Üye Girişi">
                         <a id="pswun" class="text-hover forgot-password" href="#">
                           Şifremi Unuttum
                         </a>
-                    </div>
-                    <div class="ct-register">
+                    </span>
+                    <span class="ct-register">
                       <a id="üyeol" href="#" class="btn btn-register">
                         Üye Olun
                       </a>
-                    </div>
+                    </span>
                   </div> 
                   </div>
                 </div>

@@ -10,6 +10,7 @@
     <KatagoriCard/>
     <ProductSlider/>
     <ProductSlider2/>
+    <Simge/>
    </body>
  </div>
 </template>

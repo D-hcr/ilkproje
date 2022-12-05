@@ -180,8 +180,8 @@
     height: 50px;
     width: 50px;
     position: absolute;
-    right: -60px;
-    top: 120px;
+    right: -40px;
+    top: 110px;
     
 }
 #rid {

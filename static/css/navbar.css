@@ -102,7 +102,10 @@ body {
   width: 350px;
   height: 60px;
   text-align: center;
-  left: 20px;
+  left: 5px;
+  top: 5px;
+  
+  
 }
 #üyeg:hover{
   background-color: white;
@@ -112,10 +115,11 @@ body {
   position: relative;
   bottom: 0px;
   color: black;
-  left: -300px;
+  left: 10px;
   font-size: small;
   position: relative;
-  left: -20px; 
+  top: 10px;
+   
 }
 #üyeol {
   position: relative;
@@ -126,6 +130,7 @@ body {
   text-decoration: none;
   text-align: center;
   left: 20px;
+  top: 20px;
   box-shadow: 0 -1px 7px 1px #0003;
   
   font-size: 17px;
