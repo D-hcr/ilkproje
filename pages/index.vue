@@ -11,6 +11,9 @@
     <ProductSlider/>
     <ProductSlider2/>
     <Simge/>
+    <YanyanaReklam/>
+    <YanyanaReklam2/>
+    <YanyanaReklam3/>
    </body>
  </div>
 </template>
