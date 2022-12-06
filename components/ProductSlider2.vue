@@ -202,6 +202,8 @@
 }
 #ct {
     margin-top: 30px;
+    position: relative;
+    top: 100px;
 }
 #tümg {
     position: relative;

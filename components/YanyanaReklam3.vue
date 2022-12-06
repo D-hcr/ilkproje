@@ -23,7 +23,7 @@
  .alan {
     
      position: relative;
-     top: 100px;
+     top: 300px;
      height: 500px;
      width: 1010px;
      left: 250px;

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <span class="slider3-alan" >
         <div class="cerceve">
             <p id="çskp">Çok Satan Kadın Parfümleri</p>
             <a class="keşfetrek" href="#">KEŞFET</a>
@@ -106,7 +106,7 @@
     <span id="icony" class="visually-hidden">Next</span>
   </button>
 </div>
-    </div>
+</span>
  
 
 </template>
@@ -163,5 +163,9 @@
 }
 .keşfetrek:hover {
     color: #ba7a2d;
+}
+.slider3-alan {
+    position: relative;
+    top: 150px;
 }
 </style>

@@ -62,7 +62,7 @@
 <style>
 #simge {
     position: relative;
-    top: 80px;
+    top: 180px;
     left: 300px;
     
 }
