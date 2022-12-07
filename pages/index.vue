@@ -15,7 +15,13 @@
     <ProductSlider3/>
     <YeniKoleksiyon/>
     <WebSitesiBigi/>
+    <WebSitesiBilgi2/>
    </body>
+   <footer>
+    <Footer/>
+   </footer>
+   
+  
  </div>
 </template>
 
