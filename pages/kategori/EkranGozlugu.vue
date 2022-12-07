@@ -12,8 +12,8 @@
      class="sidebar_collection-title_custom">
       &nbsp;{{catg.name}}
     </span>
-    <v-container id="cont">
-       <v-card v-bind="(product , index) in products"
+    <div id="cont">
+       <div v-for="(product , index) in products"
             :key="'product-'+ index " 
        id="cardana">
          <a id="carda" href="#"  style="width: 18rem;">
@@ -27,9 +27,9 @@
             <p id="price">{{product.price}}</p>
             <em >TL</em>
 
-       </v-card>
-     
-    </v-container>
+       </div>
+      
+    </div>
    </section>
    
  </body>

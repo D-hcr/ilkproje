@@ -1,6 +1,6 @@
 <template>
-    <div class="footer">
-        <div id="ilkt"  class="col-footer col-12 col-md-4 col-lg20 col5">
+    <v-footer class="footer">
+        <v-col id="ilkt"  class="col-footer col-12 col-md-4 col-lg20 col5">
                     
                     <h3 class="foot-title dropdow-mb">
                         
@@ -55,8 +55,8 @@
                         
                     </ul>
                     
-                </div>
-                <div class="col-footer col-12 col-md-4 col-lg20 col5">
+        </v-col>
+                <v-col class="col-footer col-12 col-md-4 col-lg20 col5">
                     
                     <h3 class="foot-title dropdow-mb">     
                     <span id="yard">
@@ -81,8 +81,8 @@
                         </li>   
                     </ul>
                     
-                </div>
-                <div class="col-footer col-12 col-md-4 col-lg20 col5">
+                </v-col>
+                <v-col class="col-footer col-12 col-md-4 col-lg20 col5">
                     
                     <h3 class="foot-title dropdow-mb">          
                     <span id="psayfa">
@@ -126,8 +126,8 @@
                             </a>
                         </li>
                     </ul>
-                </div>
-                <div class="col-footer col-12 col-md-4 col-lg20 col5 ">
+                </v-col>
+                <v-col class="col-footer col-12 col-md-4 col-lg20 col5 ">
                     
                     <div class="social-media">
                         <h3 class="foot-title">
@@ -191,7 +191,7 @@
                     </div>
                 
                 
-                <div id="cardtür" class="wrapper-payment-methods">
+                <v-item-group id="cardtür" class="wrapper-payment-methods">
                     <h3 id="ös" >
                         Ödeme Seçenekleri
                     </h3>
@@ -214,15 +214,15 @@
                         </li>
                         
                     </ul>
-                </div>
+                </v-item-group>
                 <a id="resimtıklakare" href="#">
                     <img src="ilkproje/static/img/kare.jfif" style="width:50px; height:60px;" alt="">
                 </a>
                <span class="patent">
                  <p>© 2022 AQUA DI POLO. Tüm Hakları Saklıdır.</p>
                </span>
-            </div>
-    </div>
+                </v-col>
+    </v-footer>
 </template>
 
 <style>
@@ -277,13 +277,14 @@ ul { list-style-type:none; }
      font-weight: 900;
      font-size: 15px;
      position: absolute;
-     left: 62px;
+     width: 200px;
+     left: -163px;
      top: -125px;
 
 }
 #cardtür {
     position: relative;
-    top: 165px;
+    top: 180px;
     
 }
 .social-icons {
@@ -291,7 +292,8 @@ ul { list-style-type:none; }
 }
 .payment-methods {
     position: absolute;
-    top: -100px;
+    top: -70px;
+    width: 300px;
    
 }
 a {
@@ -306,7 +308,7 @@ a {
 .patent {
     position: absolute;
     top: 450px;
-    left: 550px;
+    left: -700px;
 }
 #resimtıklakare {
     position: relative;

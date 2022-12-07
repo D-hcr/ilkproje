@@ -1,10 +1,10 @@
 <template>
     <section class="yanyanareklam">
         <div class="alan">
-     <div id="blg" class="bölge1">
+     <v-icon id="blg" class="bölge1">
       <img id="tagicon" src="//cdn.shopify.com/s/files/1/0485/5264/0672/files/So-Bright-Post-Banner-1080x1080_1024x1024_crop_center.jpg?v=1647501957" alt="">
-     </div>
-     <div id="blg" class="bölge2">
+     </v-icon>
+     <v-text-field id="blg" class="bölge2">
     
         <p class="ggtak">Güneş Gözlüğünü Tak</p>
         <h1 class="gçparlak">
@@ -17,26 +17,26 @@
         <span>
             <a id="abaşla" href="#" class="btn" tabindex="-1" role="button" >Alışverişe Başla</a>
         </span>
-     </div>
+     </v-text-field>
    </div>
    <div class="alan">
-      <div id="blg" class="bölge1">
+      <v-text-field id="blg" class="bölge1">
        <p class="scol">SUMMER COLLECTION</p>
-      </div>
-      <div id="blg" class="bölge2">
+      </v-text-field>
+      <v-text-field id="blg" class="bölge2">
         <img id="tagicon" src="//cdn.shopify.com/s/files/1/0485/5264/0672/files/17Kasim_1asd_1024x1024_crop_center.png?v=1654238117" alt="">
         <h1 class="yaztrend">Yaz Trendleri</h1>
         <p class="yazınenerjisi">Yazın enerjisini aksesuarlarınıza yansıtın!</p>
         <span>
             <a id="keşfet" href="#" class="btn" tabindex="-1" role="button" >KEŞFET</a>
         </span>
-      </div>
+      </v-text-field>
     </div>
     <div class="alan">
-      <div id="blg" class="bölge1">
+      <v-icon id="blg" class="bölge1">
        <img id="tagicon" src="//cdn.shopify.com/s/files/1/0485/5264/0672/files/ADP_Post_5_1024x1024_crop_center.jpg?v=1647496106" alt="">
-      </div>
-      <div id="blg" class="bölge2">
+      </v-icon>
+      <v-text-field id="blg" class="bölge2">
      
          <p class="yenikol">YENİ KOLEKSİYON</p>
          <h1 class="retrozamanı">
@@ -48,7 +48,7 @@
          <span>
              <a id="incele" href="#" class="btn" tabindex="-1" role="button" >HEMEN İNCELE</a>
          </span>
-      </div>
+      </v-text-field>
     </div>
     </section>
 </template>

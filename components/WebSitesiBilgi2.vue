@@ -1,5 +1,5 @@
 <template>
-    <div class="bilgialanı">
+    <section class="bilgialanı">
         <div id="içA" class="içbilgialanı">
             <a id="tıkresim" href="#">
                 <img  class="bilgiresim" src="//cdn.shopify.com/s/files/1/0485/5264/0672/files/Handdrawn_Icons_3-01_185x110_83428588-f6e9-429a-9b8b-2a84e1c90e77_185x_crop_center.png?v=1636063558" alt="">
@@ -13,11 +13,10 @@
                 <img class="bilgiresim2" src="//cdn.shopify.com/s/files/1/0485/5264/0672/files/Handdrawn_Icons_2-01_185x110_80838e95-ce95-424d-8bdb-4067998f855c_185x_crop_center.png?v=1636063586" alt="">
              </a>
              <p id="züp">Zengin ürün portföyü</p>
-             <p id="sgpü">Saat, gözlük, parfüm, çanta, sweatshirt ve aksesuar ürünlerimiz</p>
-             <p id="iyvk">ile yenilikçi ve kaliteli bir moda markası</p>
-             <p id="oög">olmaya özen gösteriyoruz.</p>
+             <p id="sgpü">Saat, gözlük, parfüm, çanta, sweatshirt ve aksesuar ürünlerimiz ile yenilikçi ve kaliteli bir moda markası olmaya özen gösteriyoruz.</p>
+            
         </div>
-    </div>
+    </section>
 </template>
 
 <style>
@@ -40,7 +39,7 @@
     position: relative;
     top: -300px;
     left: 760px;
-    background-color: #cac7ae;
+    background-color: #efe8e0;
 }
 .bilgiresim {
     position: absolute;
@@ -79,16 +78,8 @@
     position: absolute;
     top: 165px;
     left: 140px;
-    
+    text-align: center;
+    width: 450px;
 }
-#iyvk {
-    position: absolute;
-    top: 185px;
-    left: 230px;
-}
-#oög {
-    position: absolute;
-    top: 205px;
-    left: 260px;
-}
+
 </style>

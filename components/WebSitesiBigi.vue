@@ -36,5 +36,6 @@
 .metinöncü {
     position: absolute;
     top: 70px;
+    text-align: center;
 }
 </style>

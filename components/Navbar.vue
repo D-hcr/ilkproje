@@ -1,15 +1,15 @@
 <template>
-      <div >
-      <section class="header-main border-bottom ">
-        <div  class="container-fluid">
-          <div class="row p-2 pt-3 pb-3 d-flex align-items-center">
-            <div id="r" class="col-md-2 mt-2">
+      
+      <div class="header-main border-bottom ">
+        <v-container  class="container-fluid">
+          <v-row class="row p-2 pt-3 pb-3 d-flex align-items-center">
+            <em id="r" class="col-md-2 mt-2">
               <a href="http://localhost:3000/">
-                <img class="d-none d-md-flex"  src="//cdn.shopify.com/s/files/1/0485/5264/0672/files/Aqua_di_Polo_Logo_150x167-new.png?v=1630" width="100" height="50" >
+                <img  class="d-none d-md-flex"  src="//cdn.shopify.com/s/files/1/0485/5264/0672/files/Aqua_di_Polo_Logo_150x167-new.png?v=1630" width="100" height="50" >
               </a>
-            </div>
-            <div class="col-md-8">            
-              <div  class="d-flex form-inputs">
+            </em>
+            <v-col class="col-md-8">            
+              <v-flex  class="d-flex form-inputs">
                 <form  action="/search" method="get" class="aqua-search" role="search">
                   <input type="hidden" name="type" value="product">
                   <input id="sb" type="search" name="q" class="aqua-search-form" placeholder="    Ara.." aria-label="Search Site" autocomplete="OFF">
@@ -19,15 +19,15 @@
                       </svg>
                     </button>
                   </form>
-              </div>
-            </div>
-            <div class="col-md-2">                     
+              </v-flex>
+            </v-col>
+            <v-col class="col-md-2">                     
                 <YanLogin/>
-            </div>
-          </div>
-        </div>  
-      </section> 
-    </div>      
+            </v-col>
+          </v-row>
+        </v-container>  
+      </div> 
+         
 </template>
 
 <script>
@@ -37,5 +37,5 @@ const { default: YanLoginVue } = require('./YanLogin.vue');
 </script>
 
 <style>
-@import url("static/css/navbar.css");  
+@import url("asset/css/navbar.css");  
 </style>

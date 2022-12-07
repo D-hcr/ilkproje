@@ -1,21 +1,19 @@
 {
-  "name": "ilkproje",
-  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
     "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
-  },
-  "dependencies": {
-    "core-js": "^3.25.3",
-    "nuxt": "^2.15.8",
-    "vue": "^2.7.10",
-    "vue-server-renderer": "^2.7.10",
-    "vue-template-compiler": "^2.7.10"
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxtjs/vuetify": "^1.12.3"
+    "nuxt": "3.0.0"
+  },
+  "dependencies": {
+    "bootstrap5": "^1.1.9",
+    "sass": "^1.56.1",
+    "vue": "^3.2.45",
+    "vuetify": "^3.0.3"
   }
 }

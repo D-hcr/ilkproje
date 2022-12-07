@@ -22,7 +22,7 @@
          
          </section>
          <section id="hd" class="cardkoleksiyon" >
-        <div>
+       
           <a  id="producta" href="#"  style="width: 18rem;">
           <div class="resimtablosu">
              <img id="resimveri" src="https://cdn.shopify.com/s/files/1/0485/5264/0672/products/Aqua-di-Polo-Dolcedorme-Initial-90-Ml-EDP-Erkek-Parfum-APCN000601_360x.jpg?v=1649216578"  >
@@ -36,7 +36,7 @@
             
             <p id="pricetagz">499.00</p>
              <em id="pricetagz" >TL</em>
-           </div>
+           
  
         </div>
       
@@ -137,6 +137,7 @@
      width: 250px;
      height: 300px;
      left: 100px;
+     border-radius: 20px;
  }
  #resimveri {
      position: relative;
@@ -147,9 +148,12 @@
      
  }
  .resimtablosu {
-     border: solid rgb(183, 180, 180);
+     border: solid rgb(212, 210, 210);
      position: relative;
-     
+     width: 252px;
+     left: -2px;
+     border-top-right-radius: 20px;
+     border-top-left-radius: 20px;
     
  }
  #metintitle {
@@ -157,6 +161,7 @@
      position: relative;
      font-size: 13px;
      font-weight: 700;
+     left: 10px;
      
  }
  #pricetagz {
@@ -175,7 +180,10 @@
     height: 30px;
     width: 150px;
     position: relative;
+    left: 10px;
     
  }
- 
+ #metintitle:hover {
+    text-decoration-line: underline;
+ }
  </style>

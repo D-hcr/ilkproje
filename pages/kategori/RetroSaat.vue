@@ -1,19 +1,19 @@
 <template>
-    <div>
- <header>
-    <Navbar/>
-    <Katagoriler/>
- </header>
- <body>
+     <div>
+  <header>
+     <Navbar/>
+     <Katagoriler/>
+  </header>
+  <body>
    <section id="bölüm" class="header-main border-bottom ">
     <div><a id="as" href="http://localhost:3000">AnaSayfa</a></div>
     <span v-for="(catg,index) in categori " 
-           :key="'catg-'+index" 
-     class="sidebar_collection-title_custom">
+           :key="'catg-'+index"   
+    class="sidebar_collection-title_custom">
       &nbsp;{{catg.name}}
     </span>
-    <v-container id="cont">
-       <v-card v-bind="(product , index) in products"
+    <div id="cont">
+       <div v-for="(product , index) in products"
             :key="'product-'+ index " 
        id="cardana">
          <a id="carda" href="#"  style="width: 18rem;">
@@ -27,15 +27,13 @@
             <p id="price">{{product.price}}</p>
             <em >TL</em>
 
-       </v-card>
-     
-    </v-container>
+       </div>
+      
+    </div>
    </section>
-   
- </body>
+  </body>
 </div> 
 </template>
-
 
 <style>
  
@@ -97,45 +95,43 @@
 </style>
 
 <script>
-
-
 export default {
    data() {
       return {
           products: [
             {
-               id:5,
-               name:"Aqua di Polo Unisex Mavi Işık Koruyucu Gözlük APSBL01101",
-               price:143.80,
-               photourl:"https://cdn.shopify.com/s/files/1/0485/5264/0672/products/71549_1_9a2d7ac0-ce12-4025-a454-89b2ea793a9d_360x.jpg?v=1669968499"
-            },
-            {
-               id:6,
-               name:"Aqua di Polo Kadın Mavi Işık Korumalı Gözlük APSBL01401",
+               id:1,
+               name:"Aqua di Polo  Rose Gold ve Gümüş Metal Kordonlu Dijital Retro KolSaati 2'li Hediye Seti STWA010169",
                price:499.00,
-               photourl:"https://cdn.shopify.com/s/files/1/0485/5264/0672/products/Aqua-di-Polo-Kadin-Mavi-Isik-Koruyucu-Gozluk-APSBL01401_360x.jpg?v=1651219399",
-               
+               photourl:"https://cdn.shopify.com/s/files/1/0485/5264/0672/products/Aqua-di-Polo-Unisex-Rose-Gold-ve-Gumus-Metal-Kordonlu-Dijital-Retro-Kol-Saati-2li-Hediye-Seti-STWA010169_360x.jpg?v=1649223484"
             },
             {
-               id:7,
-               name:"Aqua di Polo Unisex Mavi Işık Korumalı Gözlük APSBL00701",
-               price:527.80,
-               photourl:"https://cdn.shopify.com/s/files/1/0485/5264/0672/products/Aqua-di-Polo-Unisex-Mavi-Isik-Korumali-Gozluk-APSBL00701_360x.jpg?v=1649217468",
-            },
-            {
-               id:8,
-               name:"Aqua di Polo Kadın Mavi Işık Korumalı Gözlük APSBL00301",
+               id:2,
+               name:"Aqua di Polo Kadın Gümüş Metal Kordonlu Yıldız Desenli Dijital Retro Saat APWA063800",
                price:499.00,
-               photourl:"https://cdn.shopify.com/s/files/1/0485/5264/0672/products/Aqua-di-Polo-Kadin-Mavi-Isik-Korumali-Gozluk-APSBL00301_360x.jpg?v=1649217527"
+               photourl:"https://cdn.shopify.com/s/files/1/0485/5264/0672/products/Aqua-di-Polo-Kadin-Gumus-Metal-Kordonlu-Yildiz-Desenli-Dijital-Retro-Saat-APWA063800_360x.jpg?v=1653899449",
+
+            },
+            {
+               id:3,
+               name:"Aqua di Polo Unisex Siyah Metal Kordonlu Mermer Desenli Dijital Retro Saat APWA064300",
+               price:499.00,
+               photourl:"https://cdn.shopify.com/s/files/1/0485/5264/0672/products/Aqua-di-Polo-Unisex-Siyah-Metal-Kordonlu-Mermer-Desenli-Dijital-Retro-Saat-APWA064300_360x.jpg?v=1653899081",
+            },
+            {
+               id:4,
+               name:"Aqua di Polo Unisex Gümüş Metal Kordonlu Mermer Desenli Dijital Retro Saat APWA064400",
+               price:499.00,
+               photourl:"https://cdn.shopify.com/s/files/1/0485/5264/0672/products/Aqua-di-Polo-Unisex-Gumus-Metal-Kordonlu-Mermer-Desenli-Dijital-Retro-Saat-APWA064400_360x.jpg?v=1651218958"
             }
             
           ],
           categori:[
             {  id:1,
-               name:"Ekran Gözlüğü"
+               name:"Retro Saat"
             }
           ]
       }
    },
 }
-</Script>
+</script>

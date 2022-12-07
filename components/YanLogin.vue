@@ -1,7 +1,7 @@
 <template>
     
-    <div>
-                <span id="sp" style="font-size:30px;cursor:pointer" >
+    <section>
+                <v-icon id="sp" style="font-size:30px;cursor:pointer" >
                   <a id="svg" href="#"  title="User Icon" class="icon-user" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                     Üye Girişi          
                       <svg viewBox="0 0 32 32" width="23px" height="23px">
@@ -15,15 +15,15 @@
                         </path>
                       </svg>         
                   </a>              
-                </span>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                  <div class="offcanvas-header">
+                </v-icon>
+                <v-menu class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                  <v-subheader class="offcanvas-header">
                      <h5  class="offcanvas-title" id="offcanvasRightLabel">Oturum Aç</h5>
                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                  </div>
+                  </v-subheader>
                    <div class="offcanvas-body">
-                    <div class="ct-login">
-                  <div class="form-group">
+                    <v-content class="ct-login">
+                  <v-form class="form-group">
                     <label id="emaillabel" for="customer_email">
                       <span id="ep">
                         E-posta
@@ -31,8 +31,8 @@
                       <em id="yıldız1">*</em>
                     </label>
                     <input id="email" class="form-control" type="email" value="" name="customer[email]" placeholder="E-posta">
-                  </div>
-                  <div id="f2g" class="form-group">
+                  </v-form>
+                  <v-form id="f2g" class="form-group">
                     <label for="customer_password">
                       <span >
                         Şifre
@@ -40,7 +40,7 @@
                       <em id="yıldız">*</em>
                     </label>
                     <input id="pswi" class="form-control" type="password" value="" placeholder="Şifre" name="customer[password]">
-                  </div>
+                  </v-form>
                     <span id="login" class="action-btn">
                       <input id="üyeg" type="submit" class="btn btn-login" value="Üye Girişi">
                         <a id="pswun" class="text-hover forgot-password" href="#">
@@ -52,9 +52,9 @@
                         Üye Olun
                       </a>
                     </span>
-                  </div> 
+                    </v-content> 
                   </div>
-                </div>
-              </div>
+                </v-menu>
+    </section>
               
 </template>
