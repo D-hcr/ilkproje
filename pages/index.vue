@@ -11,29 +11,29 @@
     <ProductSlider/>
     <ProductSlider2/>
     <Simge/>
-    <YanyanaReklam/>
-    <YanyanaReklam2/>
-    <YanyanaReklam3/>
+    <YanyanaReklamgrubu/>
     <ProductSlider3/>
     <YeniKoleksiyon/>
+    <WebSitesiBigi/>
    </body>
  </div>
 </template>
 
 <script >
+import WebSitesiBigi from '~/components/WebSitesiBigi.vue';
+
 
 export default {
-  async created(){
-   this.saleitems=await this.$content("product")
-  },
-
-  data() {
-   return {
-       products:null,
-       saleitems:null,
-   }
-  },
-   
+    async created() {
+        this.saleitems = await this.$content("product");
+    },
+    data() {
+        return {
+            products: null,
+            saleitems: null,
+        };
+    },
+    components: { WebSitesiBigi }
 }
 
 </script>

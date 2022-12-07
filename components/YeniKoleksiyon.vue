@@ -27,12 +27,16 @@
           <div class="resimtablosu">
              <img id="resimveri" src="https://cdn.shopify.com/s/files/1/0485/5264/0672/products/Aqua-di-Polo-Dolcedorme-Initial-90-Ml-EDP-Erkek-Parfum-APCN000601_360x.jpg?v=1649216578"  >
           </div>
-          <p id="metintitle" >Aqua di Polo Dolcedorme Initial 90 Ml EDP Erkek Parfüm APCN000601 </p>
+          
+            <p id="metintitle" >Aqua di Polo Dolcedorme Initial 90 Ml EDP Erkek Parfüm APCN000601 </p>
+          
           
           </a>
- 
-             <p id="pricetagz">499.00</p>
+           <div id="pricetagzana">
+            
+            <p id="pricetagz">499.00</p>
              <em id="pricetagz" >TL</em>
+           </div>
  
         </div>
       
@@ -43,8 +47,8 @@
  <style>
  .yenikoleksiyon {
      position: relative;
-     
-    
+     left: 50px;
+     top: 200px;
      width: 1300px;
      height: 700px;
     
@@ -150,7 +154,7 @@
  }
  #metintitle {
      color: black;
-     
+     position: relative;
      font-size: 13px;
      font-weight: 700;
      
@@ -164,5 +168,14 @@
 
  #hd {
     float: left;
+    
  }
+ #pricetagzana {
+    
+    height: 30px;
+    width: 150px;
+    position: relative;
+    
+ }
+ 
  </style>

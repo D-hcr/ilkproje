@@ -1,5 +1,5 @@
 <template>
-    <span class="slider3-alan" >
+    <div class="slider3-alan" >
         <div class="cerceve">
             <p id="çskp">Çok Satan Kadın Parfümleri</p>
             <a class="keşfetrek" href="#">KEŞFET</a>
@@ -106,7 +106,7 @@
     <span id="icony" class="visually-hidden">Next</span>
   </button>
 </div>
-</span>
+    </div>
  
 
 </template>
@@ -119,7 +119,7 @@
     margin-top: 200px;
     width: 860px;
     height: 390px;
-    top: -250px;
+    top: -450px;
 }
 #buttona {
     position: relative;
@@ -141,7 +141,7 @@
     position: relative;
    
     width: 500px;
-    top: 250px;
+    top: 0px;
     height: 300px;
     left: 50px;
 }
@@ -166,6 +166,9 @@
 }
 .slider3-alan {
     position: relative;
-    top: 150px;
+    top: 200px;
+   
+    height: 450px;
+   
 }
 </style>
