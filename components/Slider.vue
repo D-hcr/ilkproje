@@ -1,5 +1,5 @@
 <template>
-    <v-container>
+    <section>
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
      <span class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="slide-1"></button>
@@ -9,29 +9,29 @@
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="slider-5"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="slider-6"></button>
      </span> 
-  <v-carousel-item class="carousel-inner">
-    <v-img class="carousel-item active" data-bs-interval="10000">
+  <section class="carousel-inner">
+    <span class="carousel-item active" data-bs-interval="10000">
       <img src="//cdn.shopify.com/s/files/1/0485/5264/0672/files/web_1987_WEBR.jpg?v=1667567188" class="d-block w-100" alt="slider-1">
-    </v-img>
-    <v-img class="carousel-item" data-bs-interval="2000">
+    </span>
+    <span class="carousel-item" data-bs-interval="2000">
       <img src="//cdn.shopify.com/s/files/1/0485/5264/0672/files/WEBBANNER_Calisma_Yuzeyi_1.jpg?v=1666351596" class="d-block w-100" alt="slider-2">
-    </v-img>
-    <v-img class="carousel-item">
+    </span>
+    <span class="carousel-item">
       <img src="//cdn.shopify.com/s/files/1/0485/5264/0672/files/WEBBANNER_Calisma_Yuzeyi_1_kopya_3.jpg?v=1666341862" class="d-block w-100" alt="slider-3">
-    </v-img>
-    <v-img class="carousel-item">
+    </span>
+    <span class="carousel-item">
       <img src="//cdn.shopify.com/s/files/1/0485/5264/0672/files/WEBBANNER_Calisma_Yuzeyi_1_kopya_4.jpg?v=1666354368" class="d-block w-100" alt="slider-4">
-    </v-img>
-    <v-img class="carousel-item">
+    </span>
+    <span class="carousel-item">
       <img src="//cdn.shopify.com/s/files/1/0485/5264/0672/files/WEBBANNER_Calisma_Yuzeyi_1_kopya_2.jpg?v=1666351145" class="d-block w-100" alt="slider-5">
-    </v-img>
-    <v-img class="carousel-item">
+    </span>
+    <span class="carousel-item">
       <img src="//cdn.shopify.com/s/files/1/0485/5264/0672/files/WEBBANNER_Calisma_Yuzeyi_1_kopya.jpg?v=1666351736" class="d-block w-100" alt="slider-6">
-    </v-img>
-  </v-carousel-item>
+    </span>
+  </section>
  
 </div>
-    </v-container>
+    </section>
 </template>
 
 <script>

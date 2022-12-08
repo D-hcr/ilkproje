@@ -12,7 +12,7 @@
      class="sidebar_collection-title_custom">
       &nbsp;{{catg.name}}
     </span>
-    <v-container id="cont">
+    <span id="cont">
        <v-card v-bind="(product , index) in products"
             :key="'product-'+ index " 
        id="cardana">
@@ -29,7 +29,7 @@
 
        </v-card>
      
-    </v-container>
+    </span>
    </section>
    
  </body>

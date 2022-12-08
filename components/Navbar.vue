@@ -1,15 +1,15 @@
 <template>
       
       <div class="header-main border-bottom ">
-        <v-container  class="container-fluid">
-          <v-row class="row p-2 pt-3 pb-3 d-flex align-items-center">
+        <section  class="container-fluid">
+          <span class="row p-2 pt-3 pb-3 d-flex align-items-center">
             <em id="r" class="col-md-2 mt-2">
               <a href="http://localhost:3000/">
                 <img  class="d-none d-md-flex"  src="//cdn.shopify.com/s/files/1/0485/5264/0672/files/Aqua_di_Polo_Logo_150x167-new.png?v=1630" width="100" height="50" >
               </a>
             </em>
-            <v-col class="col-md-8">            
-              <v-flex  class="d-flex form-inputs">
+            <section class="col-md-8">            
+              <span  class="d-flex form-inputs">
                 <form  action="/search" method="get" class="aqua-search" role="search">
                   <input type="hidden" name="type" value="product">
                   <input id="sb" type="search" name="q" class="aqua-search-form" placeholder="    Ara.." aria-label="Search Site" autocomplete="OFF">
@@ -19,13 +19,13 @@
                       </svg>
                     </button>
                   </form>
-              </v-flex>
-            </v-col>
-            <v-col class="col-md-2">                     
+              </span>
+            </section>
+            <div class="col-md-2">                     
                 <YanLogin/>
-            </v-col>
-          </v-row>
-        </v-container>  
+            </div>
+          </span>
+        </section>  
       </div> 
          
 </template>

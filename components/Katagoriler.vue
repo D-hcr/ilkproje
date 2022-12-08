@@ -1,29 +1,29 @@
 <template>
   <nav id="cd" class="navbar navbar-expand">
-    <v-container  class="container-fluid">
-      <v-content  class="collapse navbar-collapse" id="navbarNavDropdown">
+    <section  class="container-fluid">
+      <span  class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul id="uc" class="navbar-nav">
-          <v-list-group class="dropdown">
+          <div class="dropdown">
             <li class="nav-item">
               <button id="k" class="dropbtn">KADIN
                 <a class="nav-link active" aria-current="page" href="http://localhost:3000/Kategori/Kadin"></a>
               </button>       
-              <v-content class="dropdown-content">
+              <span class="dropdown-content">
                 <a href="http://localhost:3000/Kategori/KadinC">ÇANTA </a>
                 <a href="http://localhost:3000/Kategori/KadinD">PARFÜM &amp; DEODORANT </a>
                 <a href="http://localhost:3000/Kategori/KadinA">AKSESUAR </a>
                 <a href="http://localhost:3000/Kategori/KadinS">SAAT </a>
                 <a href="http://localhost:3000/Kategori/KadinG">GÜNEŞ GÖZLÜĞÜ </a>
                 <a href="http://localhost:3000/Kategori/KadinSw">SWEATSHİRT </a>
-              </v-content>
+              </span>
             </li>
-          </v-list-group>  
-          <v-list-group class="dropdown">
+          </div>  
+          <div class="dropdown">
             <li class="nav-item">
               <button id="k" class="dropbtn">ERKEK
                 <a class="nav-link" href="http://localhost:3000/Kategori/Erkek"></a>
               </button>
-              <v-content class="dropdown-content">
+              <span class="dropdown-content">
                 
                 <a href="http://localhost:3000/Kategori/ErkekS">SAAT </a>
                 <a href="http://localhost:3000/Kategori/ErkekC">ÇANTA </a>
@@ -31,9 +31,9 @@
                 <a href="http://localhost:3000/Kategori/ErkekA">AKSESUAR </a>
                 <a href="http://localhost:3000/Kategori/ErkekG">GÜNEŞ GÖZLÜĞÜ </a>
                 <a href="http://localhost:3000/Kategori/ErkekD">PARFÜM &amp; DEODORANT </a>            
-              </v-content>
+              </span>
             </li>
-          </v-list-group> 
+          </div> 
           <li class="nav-item">
             <a id="k" class="nav-link" href="http://localhost:3000/Kategori/RetroSaat">RETRO SAAT</a> 
           </li>  
@@ -42,7 +42,7 @@
           </li>
        
       </ul>
-      <v-icon>
+      <section>
         <span  >
           <a href="#" id="sepeticon" title="Cart" class="cart-icon" >
           <svg id="Asvg" viewBox="0 0 32 32" width="29px" height="29px">
@@ -55,10 +55,10 @@
           <span id="sepetmiktar" class="cartCount" data-cart-count="">0</span>
           </a>
         </span>  
-      </v-icon>
+      </section>
       
-      </v-content>
-    </v-container>
+      </span>
+    </section>
 </nav>
 </template>
 

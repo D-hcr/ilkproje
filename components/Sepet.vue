@@ -5,13 +5,13 @@
     <Katagoriler/>
  </header>
  <body>
-   <v-text-field id="sepet">
+   <span id="sepet">
       <h1 id="titles">Sepetim</h1>
-   </v-text-field>
+   </span>
    <form id="formsepet" action="">
-    <v-text-field id="textsözet">
+    <div id="textsözet">
       <h2 class="sipariş">Sipariş özeti</h2>
-    </v-text-field>
+    </div>
     <span>
     <p>
 

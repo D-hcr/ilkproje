@@ -24,9 +24,9 @@
          <section id="hd" class="cardkoleksiyon" >
        
           <a  id="producta" href="#"  style="width: 18rem;">
-          <v-img class="resimtablosu">
+          <span class="resimtablosu">
              <img id="resimveri" src="https://cdn.shopify.com/s/files/1/0485/5264/0672/products/Aqua-di-Polo-Dolcedorme-Initial-90-Ml-EDP-Erkek-Parfum-APCN000601_360x.jpg?v=1649216578"  >
-          </v-img>
+          </span>
           
             <p id="metintitle" >Aqua di Polo Dolcedorme Initial 90 Ml EDP Erkek Parfüm APCN000601 </p>
           

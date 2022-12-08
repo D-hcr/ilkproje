@@ -6,33 +6,33 @@
        <Katagoriler/>
     </header>
     <body>
-        <v-card id="cardPr" class="card mb-3" style="max-width: 1000px;
+        <span id="cardPr" class="card mb-3" style="max-width: 1000px;
         border: none;     
         ">
-  <v-row   class="row g-0">
+  <section   class="row g-0">
     <div  class="col-md-4">
       <img src="https://cdn.shopify.com/s/files/1/0485/5264/0672/products/71549_1_9a2d7ac0-ce12-4025-a454-89b2ea793a9d_360x.jpg?v=1669968499" class="img-fluid rounded-start"
       
       alt="...">
     </div>
-    <v-col class="col-md-8">
+    <span class="col-md-8">
       <span class="card-body">
         <div><a id="as" href="http://localhost:3000">AnaSayfa</a></div>
         <h5 id="namep" class="card-title">Aqua di Polo Unisex Mavi Işık Koruyucu Gözlük APSBL01101</h5>
         <p id="price">499.00</p>
             <em id="price" >TL</em>
-            <v-textarea class="quantity">
+            <span class="quantity">
               <div class="qty-group">
                 <input id="qg" type="number" data-qtt-id="quantity__7265323450528" name="quantity" value="1" data-gtm-form-interact-field-id="6">
               </div>
               <input data-btn-addtocart="" type="submit" name="add" class="btn" id="product-add-to-cart" value="Sepete ekle" data-form-id="#add-to-cart-form">
              
-            </v-textarea>
+            </span>
            
       </span>
-    </v-col>
-  </v-row>
-        </v-card>
+    </span>
+  </section>
+        </span>
     </body>
     </section>
  </template>

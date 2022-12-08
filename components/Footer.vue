@@ -1,6 +1,6 @@
 <template>
-    <v-footer class="footer">
-        <v-col id="ilkt"  class="col-footer col-12 col-md-4 col-lg20 col5">
+    <section class="footer">
+        <span id="ilkt"  class="col-footer col-12 col-md-4 col-lg20 col5">
                     
                     <h3 class="foot-title dropdow-mb">
                         
@@ -55,7 +55,7 @@
                         
                     </ul>
                     
-        </v-col>
+        </span>
                 <v-col class="col-footer col-12 col-md-4 col-lg20 col5">
                     
                     <h3 class="foot-title dropdow-mb">     
@@ -191,7 +191,7 @@
                     </div>
                 
                 
-                <v-item-group id="cardtür" class="wrapper-payment-methods">
+                <div id="cardtür" class="wrapper-payment-methods">
                     <h3 id="ös" >
                         Ödeme Seçenekleri
                     </h3>
@@ -214,7 +214,7 @@
                         </li>
                         
                     </ul>
-                </v-item-group>
+                </div>
                 <a id="resimtıklakare" href="#">
                     <img src="ilkproje/static/img/kare.jfif" style="width:50px; height:60px;" alt="">
                 </a>
@@ -222,7 +222,7 @@
                  <p>© 2022 AQUA DI POLO. Tüm Hakları Saklıdır.</p>
                </span>
                 </v-col>
-    </v-footer>
+    </section>
 </template>
 
 <style>
