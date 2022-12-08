@@ -13,7 +13,7 @@
       &nbsp;{{catg.name}}
     </span>
     <span id="cont">
-       <v-card v-bind="(product , index) in products"
+       <section v-bind="(product , index) in products"
             :key="'product-'+ index " 
        id="cardana">
          <a id="carda" href="#"  style="width: 18rem;">
@@ -27,7 +27,7 @@
             <p id="price">{{product.price}}</p>
             <em >TL</em>
 
-       </v-card>
+       </section>
      
     </span>
    </section>

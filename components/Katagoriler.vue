@@ -1,5 +1,5 @@
 <template>
-  <nav id="cd" class="navbar navbar-expand">
+  <div id="cd" class="navbar navbar-expand">
     <section  class="container-fluid">
       <span  class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul id="uc" class="navbar-nav">
@@ -59,7 +59,7 @@
       
       </span>
     </section>
-</nav>
+</div>
 </template>
 
 <style>

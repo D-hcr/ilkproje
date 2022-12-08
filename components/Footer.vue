@@ -56,7 +56,7 @@
                     </ul>
                     
         </span>
-                <v-col class="col-footer col-12 col-md-4 col-lg20 col5">
+                <section class="col-footer col-12 col-md-4 col-lg20 col5">
                     
                     <h3 class="foot-title dropdow-mb">     
                     <span id="yard">
@@ -81,8 +81,8 @@
                         </li>   
                     </ul>
                     
-                </v-col>
-                <v-col class="col-footer col-12 col-md-4 col-lg20 col5">
+                </section>
+                <section class="col-footer col-12 col-md-4 col-lg20 col5">
                     
                     <h3 class="foot-title dropdow-mb">          
                     <span id="psayfa">
@@ -126,8 +126,8 @@
                             </a>
                         </li>
                     </ul>
-                </v-col>
-                <v-col class="col-footer col-12 col-md-4 col-lg20 col5 ">
+                </section>
+                <section class="col-footer col-12 col-md-4 col-lg20 col5 ">
                     
                     <div class="social-media">
                         <h3 class="foot-title">
@@ -221,7 +221,7 @@
                <span class="patent">
                  <p>© 2022 AQUA DI POLO. Tüm Hakları Saklıdır.</p>
                </span>
-                </v-col>
+                </section>
     </section>
 </template>
 
