@@ -1,9 +1,9 @@
 <template>
     <section class="yanyanareklam">
         <div class="alan">
-     <v-icon id="blg" class="bölge1">
+     <v-img id="blg" class="bölge1">
       <img id="tagicon" src="//cdn.shopify.com/s/files/1/0485/5264/0672/files/So-Bright-Post-Banner-1080x1080_1024x1024_crop_center.jpg?v=1647501957" alt="">
-     </v-icon>
+     </v-img>
      <v-text-field id="blg" class="bölge2">
     
         <p class="ggtak">Güneş Gözlüğünü Tak</p>
@@ -33,9 +33,9 @@
       </v-text-field>
     </div>
     <div class="alan">
-      <v-icon id="blg" class="bölge1">
+      <v-img id="blg" class="bölge1">
        <img id="tagicon" src="//cdn.shopify.com/s/files/1/0485/5264/0672/files/ADP_Post_5_1024x1024_crop_center.jpg?v=1647496106" alt="">
-      </v-icon>
+      </v-img>
       <v-text-field id="blg" class="bölge2">
      
          <p class="yenikol">YENİ KOLEKSİYON</p>
