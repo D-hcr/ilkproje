@@ -1,7 +1,24 @@
 <template>
   <div>
-    <NuxtWelcome />
-  </div>
+   <header>
+      <Navbar/>
+      <Katagoriler/>
+   </header>
+   <body>
+    <slider/>
+    <KatagoriCard/>
+    <ProductSlider/>
+    <ProductSlider2/>
+    <Simge/>
+    <YanyanaReklamgrubu/>
+    <ProductSlider3/>
+    <YeniKoleksiyon/>
+    <WebSitesiBigi/>
+    <WebSitesiBilgi2/>
+   </body>
+    <Footer/>
+   
+ </div>
 </template>
 
 <script>
