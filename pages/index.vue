@@ -18,13 +18,15 @@
     <WebsitesiBilgi2/>
    </body>
    <footer>
-    <AltFooter/>
+    <Altfotter/>
    </footer>
    </div>
   </template>
   
   <script>
+import Altfotter from '~~/layouts/Altfotter.vue';
+
   export default {
-    
-  }
+    components: { Altfotter }
+}
   </script>

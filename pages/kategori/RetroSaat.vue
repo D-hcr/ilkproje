@@ -45,7 +45,7 @@
   left: 185px;
   font-size: 13px;
 }
-#as:hover {
+#asd:hover {
  color: #007bff;
 }
 .sidebar_collection-title_custom {

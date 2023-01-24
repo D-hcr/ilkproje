@@ -11,6 +11,8 @@
     "nuxt": "3.0.0"
   },
   "dependencies": {
-    "bootstrap": "^5.2.3"
+    "bootstrap": "^5.2.3",
+    "firebase": "^9.15.0",
+    "firebase-admin": "^11.5.0"
   }
 }
