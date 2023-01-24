@@ -1,102 +1,102 @@
 <template>
-    <section class="slider3-alan" >
-        <span class="cerceve">
+    <div class="slider3-alan" >
+        <div class="cerceve">
             <p id="çskp">Çok Satan Kadın Parfümleri</p>
             <a class="keşfetrek" href="#">KEŞFET</a>
-        </span>
-        <span  id="carouselExampleControlsad"  class="carousel slide"  data-bs-ride="carousel" >
-  <section class="carousel-inner" >
-    <section id="ciactive" class="carousel-item active">
-        <div  id="pcorusel" class="card" style="width: 15rem; height: 23rem; ">
+        </div>
+        <div  id="carouselExampleControlsad"  class="carousel slide"  data-bs-ride="carousel" >
+  <div class="carousel-inner" >
+    <div id="ciactive" class="carousel-item active">
+        <a href="#" id="pcorusel" class="card" style="width: 15rem; height: 23rem; ">
             <span id="rid">
                 <img id="resim" src="https://cdn.shopify.com/s/files/1/0485/5264/0672/products/Aqua-di-Polo-Kadin-Gumus-Metal-Kordonlu-Yildiz-Desenli-Dijital-Retro-Saat-APWA063800.jpg?v=1653899466" class="card-img-top" alt="...">
             </span>
-            <span class="card-body">
-                <p class="card-text">Aqua di Polo  Rose Gold ve Gümüş Metal Kordonlu Dijital Retro KolSaati 2'li Hediye Seti</p>
+            <div class="card-bodyps">
+                <p class="card-textps">Aqua di Polo  Rose Gold ve Gümüş Metal Kordonlu Dijital Retro KolSaati 2'li Hediye Seti</p>
                 <p id="price">499.00 TL</p>
-            </span>
-       </div>
-       <div  id="pcorusel" class="card" style="width: 15rem; height: 23rem;">
+            </div>
+       </a>
+       <a href="#" id="pcorusel" class="card" style="width: 15rem; height: 23rem;">
             <span id="rid">
                 <img id="resim" src="https://cdn.shopify.com/s/files/1/0485/5264/0672/products/Aqua-di-Polo-Unisex-Siyah-Metal-Kordonlu-Mermer-Desenli-Dijital-Retro-Saat-APWA064300.jpg?v=1653899094" class="card-img-top" alt="...">
             </span>
-            <span class="card-body">
-                <p class="card-text">Aqua di Polo Unisex Siyah Metal Kordonlu Mermer Desenli Dijital Retro Saat </p>
+            <div class="card-bodyps">
+                <p class="card-textps">Aqua di Polo Unisex Siyah Metal Kordonlu Mermer Desenli Dijital Retro Saat </p>
                 <p id="price">499.00 TL</p>
-            </span>
-       </div>
-       <div  id="pcorusel" class="card" style="width: 15rem; height: 23rem;">
+            </div>
+       </a>
+       <a href="#" id="pcorusel" class="card" style="width: 15rem; height: 23rem;">
             <span id="rid">
                 <img id="resim" src="https://cdn.shopify.com/s/files/1/0485/5264/0672/products/Aqua-di-Polo-Kadin-Rose-Gold-Metal-Kordonlu-Cicek-Desenli-Dijital-Retro-Saat-APWA063801.jpg?v=1653899814" class="card-img-top" alt="...">
             </span>
-            <span class="card-body">
-                <p class="card-text">Aqua di Polo Kadın Rose Gold Metal Kordonlu Çiçek Desenli Dijital Retro Saat</p>
+            <div class="card-bodyps">
+                <p class="card-textps">Aqua di Polo Kadın Rose Gold Metal Kordonlu Çiçek Desenli Dijital Retro Saat</p>
                 <p id="price">499.00 TL</p>
-            </span>
-       </div>
+            </div>
+       </a>
       
-    </section>
-    <section class="carousel-item">
-        <div  id="pcorusel" class="card" style="width: 15rem; height: 23rem;">
+    </div>
+    <div class="carousel-item">
+        <a href="#"  id="pcorusel" class="card" style="width: 15rem; height: 23rem;">
             <span id="rid">
                 <img id="resim" src="https://cdn.shopify.com/s/files/1/0485/5264/0672/products/Aqua-di-Polo-Gran-Paradiso-Sport-50-Ml-EDP-Erkek-Parfum-APCN0005.jpg?v=1649181678" class="card-img-top" alt="...">
             </span>
-            <span class="card-body">
-                <p class="card-text">Aqua di Polo Gran Paradiso Sport 50 Ml EDP Erkek Parfüm </p>
+            <div class="card-bodyps">
+                <p class="card-textps">Aqua di Polo Gran Paradiso Sport 50 Ml EDP Erkek Parfüm </p>
                 <p id="price">499.00 TL</p>
-            </span>
-       </div>
-       <div  id="pcorusel" class="card" style="width: 15rem; height: 23rem;">
+            </div>
+       </a>
+       <a href="#" id="pcorusel" class="card" style="width: 15rem; height: 23rem;">
             <span id="rid">
                 <img id="resim" src="https://cdn.shopify.com/s/files/1/0485/5264/0672/products/Aqua-di-Polo-Gran-Paradiso-Red-50-Ml-EDP-Erkek-Parfum-APPPGR03EP.jpg?v=1649181282" class="card-img-top" alt="...">
             </span>
-            <span class="card-body">
-                <p class="card-text">Aqua di Polo Gran Paradiso Red 50 Ml EDP Erkek Parfüm</p>
+            <div class="card-bodyps">
+                <p class="card-textps">Aqua di Polo Gran Paradiso Red 50 Ml EDP Erkek Parfüm</p>
                 <p id="price">499.00 TL</p>
-            </span>
-       </div>
-       <div  id="pcorusel" class="card" style="width: 15rem; height: 23rem;">
+            </div>
+       </a>
+       <a href="#" id="pcorusel" class="card" style="width: 15rem; height: 23rem;">
             <span id="rid">
                 <img id="resim" src="https://cdn.shopify.com/s/files/1/0485/5264/0672/products/Aqua-di-Polo-Gran-Paradiso-Oasis-50-Ml-EDP-Erkek-Parfum-APCN000504.jpg?v=1649187210" class="card-img-top" alt="...">
             </span>
-            <span class="card-body">
-                <p class="card-text">Aqua di Polo Gran Paradiso Oasis 50 Ml EDP Erkek Parfüm </p>
+            <div class="card-bodyps">
+                <p class="card-textps">Aqua di Polo Gran Paradiso Oasis 50 Ml EDP Erkek Parfüm </p>
                 <p id="price">499.00 TL</p>
-            </span>
-       </div>
+            </div>
+       </a>
        
-    </section>
-    <section class="carousel-item">
-        <div  id="pcorusel" class="card" style="width: 15rem; height: 23rem;">
+    </div>
+    <div class="carousel-item">
+        <a href="#" id="pcorusel" class="card" style="width: 15rem; height: 23rem;">
             <span id="rid">
                 <img id="resim" src="https://cdn.shopify.com/s/files/1/0485/5264/0672/products/Aqua-di-Polo-Unisex-Mor-Premium-Sirt-Cantasi-APBA012805_360x.png?v=1649220798" class="card-img-top" alt="...">
             </span>
-            <span class="card-body">
-                <p class="card-text">Aqua di Polo Unisex Mor Premium Sırt Çantası</p>
+            <div class="card-bodyps">
+                <p class="card-textps">Aqua di Polo Unisex Mor Premium Sırt Çantası</p>
                 <p id="price">499.00 TL</p>
-            </span>
-       </div>
-       <div  id="pcorusel" class="card" style="width: 15rem; height: 23rem;">
+            </div>
+       </a>
+       <a href="#" id="pcorusel" class="card" style="width: 15rem; height: 23rem;">
             <span id="rid">
                 <img id="resim" src="https://cdn.shopify.com/s/files/1/0485/5264/0672/products/71965_1_360x.jpg?v=1667403707" class="card-img-top" alt="...">
             </span>
-            <span class="card-body">
-                <p class="card-text">Aqua di Polo 1987 APBA044001 Kadın Bej Omuz Çantası</p>
+            <div class="card-bodyps">
+                <p class="card-textps">Aqua di Polo 1987 APBA044001 Kadın Bej Omuz Çantası</p>
                 <p id="price">499.00 TL</p>
-            </span>
-       </div>
-       <div  id="pcorusel" class="card" style="width: 15rem; height: 23rem;">
+            </div>
+       </a>
+       <a href="#" id="pcorusel" class="card" style="width: 15rem; height: 23rem;">
             <span id="rid">
                 <img id="resim" src="https://cdn.shopify.com/s/files/1/0485/5264/0672/products/Aqua-di-Polo-Kadin-Siyah-Omuz-Askili-Telefon-Cantasi-APBA041001_360x.jpg?v=1652862742" class="card-img-top" alt="...">
             </span>
-            <span class="card-body">
-                <p class="card-text">Aqua di Polo Kadın Siyah Omuz Askılı Telefon Çantası</p>
+            <div class="card-bodyps">
+                <p class="card-textps">Aqua di Polo Kadın Siyah Omuz Askılı Telefon Çantası</p>
                 <p id="price">499.00 TL</p>
-            </span>
-       </div>
+            </div>
+       </a>
       
-    </section>
-  </section>
+    </div>
+  </div>
   <button id="buttona" class="carousel-control-prev" type="button" style="color:black" data-bs-target="#carouselExampleControlsad" data-bs-slide="prev">
     <span  class="carousel-control-prev-icon" style="color:black" aria-hidden="true"></span>
     <span id="icony" class="visually-hidden">Previous</span>
@@ -105,8 +105,8 @@
     <span  class="carousel-control-next-icon" aria-hidden="true"></span>
     <span id="icony" class="visually-hidden">Next</span>
   </button>
-        </span>
-    </section>
+</div>
+    </div>
  
 
 </template>
@@ -170,5 +170,8 @@
    
     height: 450px;
    
+}
+.card-textps:hover {
+   text-decoration: underline solid;
 }
 </style>

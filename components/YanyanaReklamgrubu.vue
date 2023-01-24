@@ -1,10 +1,10 @@
 <template>
     <section class="yanyanareklam">
         <div class="alan">
-     <a id="blg" class="bölge1">
+     <div id="blg" class="bölge1">
       <img id="tagicon" src="//cdn.shopify.com/s/files/1/0485/5264/0672/files/So-Bright-Post-Banner-1080x1080_1024x1024_crop_center.jpg?v=1647501957" alt="">
-     </a>
-     <section id="blg" class="bölge2">
+     </div>
+     <div id="blg" class="bölge2">
     
         <p class="ggtak">Güneş Gözlüğünü Tak</p>
         <h1 class="gçparlak">
@@ -17,38 +17,38 @@
         <span>
             <a id="abaşla" href="#" class="btn" tabindex="-1" role="button" >Alışverişe Başla</a>
         </span>
-     </section>
+     </div>
    </div>
    <div class="alan">
-      <span id="blg" class="bölge1">
+      <div id="blg" class="bölge1">
        <p class="scol">SUMMER COLLECTION</p>
-      </span>
-      <span id="blg" class="bölge2">
+      </div>
+      <div id="blg" class="bölge2">
         <img id="tagicon" src="//cdn.shopify.com/s/files/1/0485/5264/0672/files/17Kasim_1asd_1024x1024_crop_center.png?v=1654238117" alt="">
         <h1 class="yaztrend">Yaz Trendleri</h1>
         <p class="yazınenerjisi">Yazın enerjisini aksesuarlarınıza yansıtın!</p>
         <span>
             <a id="keşfet" href="#" class="btn" tabindex="-1" role="button" >KEŞFET</a>
         </span>
-      </span>
+      </div>
     </div>
     <div class="alan">
-      <a id="blg" class="bölge1">
+      <div id="blg" class="bölge1">
        <img id="tagicon" src="//cdn.shopify.com/s/files/1/0485/5264/0672/files/ADP_Post_5_1024x1024_crop_center.jpg?v=1647496106" alt="">
-      </a>
-      <span id="blg" class="bölge2">
+      </div>
+      <div id="blg" class="bölge2">
      
          <p class="yenikol">YENİ KOLEKSİYON</p>
          <h1 class="retrozamanı">
             Retro Zamanı
          </h1>
         
-            <p id="rc1">Retro Collection, klasik retro modellere eklenen yeni tasarımlarıyla adeta 90'ların canlılığını ve renklerini yansıtıyor.</p>
-        
+            <p id="rc1">Retro Collection, klasik retro modellere eklenen yeni </p>
+            <p id="rc2">tasarımlarıyla adeta 90'ların canlılığını ve renklerini yansıtıyor.</p>
          <span>
              <a id="incele" href="#" class="btn" tabindex="-1" role="button" >HEMEN İNCELE</a>
          </span>
-      </span>
+      </div>
     </div>
     </section>
 </template>
@@ -114,6 +114,7 @@
 #abaşla {
   position: relative;
   top: 100px;
+  left: 100px;
   width: 300px;
   height: 50px;
   background-color: #00b4ce;
@@ -174,7 +175,7 @@ box-shadow: 0 0 6px 4px rgb(153, 148, 148);
  
  #rc1 {
      position: relative;
-     left: 30px;
+     left: 50px;
      width: 450px;
      top: 100px;
  }
@@ -182,6 +183,7 @@ box-shadow: 0 0 6px 4px rgb(153, 148, 148);
  #incele {
      position: relative;
      top: 120px;
+     left: 80px;
      width: 300px;
      height: 50px;
      background-color:#8e05d2;
@@ -196,5 +198,10 @@ box-shadow: 0 0 6px 4px rgb(153, 148, 148);
     top: 200px;
     
     
+}
+#rc2 {
+  position: relative;
+  top: 90px;
+  left: 30px;
 }
 </style>

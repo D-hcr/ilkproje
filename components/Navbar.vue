@@ -1,40 +1,34 @@
 <template>
       
-      <div class="header-main border-bottom ">
-        <section  class="container-fluid">
-          <span class="row p-2 pt-3 pb-3 d-flex align-items-center">
-            <em id="r" class="col-md-2 mt-2">
-              <a href="http://localhost:3000/">
-                <img  class="d-none d-md-flex"  src="//cdn.shopify.com/s/files/1/0485/5264/0672/files/Aqua_di_Polo_Logo_150x167-new.png?v=1630" width="100" height="50" >
-              </a>
-            </em>
-            <section class="col-md-8">            
-              <span  class="d-flex form-inputs">
-                <form  action="/search" method="get" class="aqua-search" role="search">
-                  <input type="hidden" name="type" value="product">
-                  <input id="sb" type="search" name="q" class="aqua-search-form" placeholder="    Ara.." aria-label="Search Site" autocomplete="OFF">
-                    <button id="btsearch" type="submit" class="btn icon-search">
-                      <svg data-icon="search" viewBox="0 0 512 512" width="100%" height="100%">
-                        <path d="M495,466.2L377.2,348.4c29.2-35.6,46.8-81.2,46.8-130.9C424,103.5,331.5,11,217.5,11C103.4,11,11,103.5,11,217.5   S103.4,424,217.5,424c49.7,0,95.2-17.5,130.8-46.7L466.1,495c8,8,20.9,8,28.9,0C503,487.1,503,474.1,495,466.2z M217.5,382.9   C126.2,382.9,52,308.7,52,217.5S126.2,52,217.5,52C308.7,52,383,126.3,383,217.5S308.7,382.9,217.5,382.9z"></path>
-                      </svg>
-                    </button>
-                  </form>
-              </span>
-            </section>
-            <div class="col-md-2">                     
-                <YanLogin/>
+    <section class="header-main border-bottom ">
+      <section  class="container-fluid">
+        <div class="row p-2 pt-3 pb-3 d-flex align-items-center">
+          <em id="r" class="col-md-2 mt-2">
+            <nuxt-link to="/" >
+              <img class="d-none d-md-flex"  src="//cdn.shopify.com/s/files/1/0485/5264/0672/files/Aqua_di_Polo_Logo_150x167-new.png?v=1630" width="100" height="50" >
+            </nuxt-link>
+          </em>
+          <span class="col-md-8">            
+            <div  class="d-flex form-inputs">
+              <form  action="/search" method="get" class="aqua-search" role="search">
+                <input type="hidden" name="type" value="product">
+                <input id="sb" type="search" name="q" class="aqua-search-form" placeholder="    Ara.." aria-label="Search Site" autocomplete="OFF">
+                  <button id="btsearch" type="submit" class="btn icon-search">
+                    <svg data-icon="search" viewBox="0 0 512 512" width="100%" height="100%">
+                      <path d="M495,466.2L377.2,348.4c29.2-35.6,46.8-81.2,46.8-130.9C424,103.5,331.5,11,217.5,11C103.4,11,11,103.5,11,217.5   S103.4,424,217.5,424c49.7,0,95.2-17.5,130.8-46.7L466.1,495c8,8,20.9,8,28.9,0C503,487.1,503,474.1,495,466.2z M217.5,382.9   C126.2,382.9,52,308.7,52,217.5S126.2,52,217.5,52C308.7,52,383,126.3,383,217.5S308.7,382.9,217.5,382.9z"></path>
+                    </svg>
+                  </button>
+                </form>
             </div>
           </span>
-        </section>  
-      </div> 
-         
+          <section class="col-md-2">                     
+              <YanLogin/>
+          </section>
+        </div>
+      </section>  
+    </section> 
+       
 </template>
-
-<script>
-const { default: YanLoginVue } = require('./YanLogin.vue');
-
-
-</script>
 
 <style>
 #offcanvasRightLabel {
@@ -63,9 +57,7 @@ body {
   position: relative;  
   left: 170px;
   bottom: -1px;
-  
 }
-
 #sb {
   position : relative;
   margin-left: 165px;
@@ -88,8 +80,8 @@ body {
   position: relative;
   width: 40px;
   height: 25px;
-  left: -50px;
-  top: 4px;
+  left: -40px;
+  top: 1px;
   border: white;
 }
 :root {
@@ -104,6 +96,7 @@ body {
 #ep{
   position: relative;
   bottom: 0px;
+
 }
 #yıldız1 {
   position: relative;
@@ -116,6 +109,7 @@ body {
   left: 20px;
   bottom: 60px;
   height: 50px;
+ 
 }
 #f2g {
   position: relative;
@@ -131,8 +125,10 @@ body {
   width: 350px;
   height: 50px;
   bottom: 10px;
+  
 }
 #login {  
+  
   position: relative;
   left: 20px;
   bottom: 5px; 
@@ -143,7 +139,7 @@ body {
   width: 350px;
   height: 60px;
   text-align: center;
-  left: 5px;
+  left: -5px;
   top: 5px;
   
   
@@ -160,9 +156,10 @@ body {
   font-size: small;
   position: relative;
   top: 10px;
-   
+ 
 }
 #üyeol {
+ 
   position: relative;
   background-color:white;  
   color: black;
@@ -170,7 +167,7 @@ body {
   height: 60px;
   text-decoration: none;
   text-align: center;
-  left: 20px;
+  left: 15px;
   top: 20px;
   box-shadow: 0 -1px 7px 1px #0003;
   
@@ -198,5 +195,10 @@ body {
   text-decoration: underline
 }
 
-
 </style>
+
+<script>
+export default {
+    
+}
+</script>

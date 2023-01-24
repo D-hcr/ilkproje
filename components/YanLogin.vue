@@ -1,7 +1,6 @@
 <template>
-    
-    <section>
-                <span id="sp" style="font-size:30px;cursor:pointer" >
+    <div>
+                <section id="sp" style="font-size:30px;cursor:pointer" >
                   <a id="svg" href="#"  title="User Icon" class="icon-user" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                     Üye Girişi          
                       <svg viewBox="0 0 32 32" width="23px" height="23px">
@@ -15,15 +14,15 @@
                         </path>
                       </svg>         
                   </a>              
-                </span>
-                <span class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                </section>
+                <section class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                   <section class="offcanvas-header">
                      <h5  class="offcanvas-title" id="offcanvasRightLabel">Oturum Aç</h5>
-                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                     <button id="butkapat" type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                   </section>
                    <div class="offcanvas-body">
-                    <span class="ct-login">
-                  <span class="form-group">
+                    <section class="ct-login">
+                  <div class="form-group">
                     <label id="emaillabel" for="customer_email">
                       <span id="ep">
                         E-posta
@@ -31,16 +30,16 @@
                       <em id="yıldız1">*</em>
                     </label>
                     <input id="email" class="form-control" type="email" value="" name="customer[email]" placeholder="E-posta">
-                  </span>
-                  <span id="f2g" class="form-group">
+                  </div>
+                  <div id="f2g" class="form-group">
                     <label for="customer_password">
-                      <span >
+                      <span  >
                         Şifre
                       </span>
                       <em id="yıldız">*</em>
                     </label>
                     <input id="pswi" class="form-control" type="password" value="" placeholder="Şifre" name="customer[password]">
-                  </span>
+                  </div>
                     <span id="login" class="action-btn">
                       <input id="üyeg" type="submit" class="btn btn-login" value="Üye Girişi">
                         <a id="pswun" class="text-hover forgot-password" href="#">
@@ -52,9 +51,8 @@
                         Üye Olun
                       </a>
                     </span>
-                    </span> 
+                    </section> 
                   </div>
-                </span>
-    </section>
-              
+                </section>
+    </div>
 </template>

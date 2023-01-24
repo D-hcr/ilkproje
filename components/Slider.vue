@@ -9,7 +9,7 @@
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="slider-5"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="slider-6"></button>
      </span> 
-  <section class="carousel-inner">
+  <span class="carousel-inner">
     <span class="carousel-item active" data-bs-interval="10000">
       <img src="//cdn.shopify.com/s/files/1/0485/5264/0672/files/web_1987_WEBR.jpg?v=1667567188" class="d-block w-100" alt="slider-1">
     </span>
@@ -28,7 +28,7 @@
     <span class="carousel-item">
       <img src="//cdn.shopify.com/s/files/1/0485/5264/0672/files/WEBBANNER_Calisma_Yuzeyi_1_kopya.jpg?v=1666351736" class="d-block w-100" alt="slider-6">
     </span>
-  </section>
+  </span>
  
 </div>
     </section>
