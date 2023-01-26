@@ -7,26 +7,31 @@
 <body>
  <section id="bölüm" class="header-main border-bottom ">
   <div><nuxt-link  id="asd" to="/">AnaSayfa</nuxt-link></div>
-  <span    
+  <span id="sapr"   
   class="sidebar_collection-title_custom">
-    {{ $route.params.Categories }}
+    {{ ca }}
   </span>
   
   <div id="cont">
-     <div v-for="(product , index) in products"
+     <div   v-for="(product , index) in data2"
+    
           :key="'product-'+ index " 
-     id="cardana">
-       <a id="carda" href="#"  style="width: 18rem;">
-       <div id="cardp" class="card" style="width: 18rem; ">
-          <img :src="product.photourl" class="card-img-top" >
+           
+     id="cardana"
+    
+     >
+     <div  >
+     <nuxt-link  id="carda" v-bind:to="'/Urun/'+(product.id)"  style="width: 18rem;">
+       <div id="cardp" class="card" style="width: 18rem;" >
+          <img :src="product.imgUrl" class="card-img-top" >
        </div>
        <p id="pt" >{{product.name}}</p>
        
-    </a>
+     </nuxt-link>
 
           <p id="pricekat">{{product.price}}</p>
-          <em >TL</em>
-
+          <em id="simgetl" >TL</em>
+        </div>
      </div>
     
   </div>
@@ -87,48 +92,99 @@ color: #007bff;
 }
 #pricekat {
 float: left;
+font-weight: bold;
 }
 #cardana {
  margin:20px;
  float: left;
 }
-
+#simgetl {
+   font-weight: bold;
+}
 </style>
 
 <script>
-export default {
- data() {
-    return {
-        products: [
-          {
-             id:1,
-             name:"Aqua di Polo  Rose Gold ve Gümüş Metal Kordonlu Dijital Retro KolSaati 2'li Hediye Seti STWA010169",
-             price:499.00,
-             photourl:"https://cdn.shopify.com/s/files/1/0485/5264/0672/products/Aqua-di-Polo-Unisex-Rose-Gold-ve-Gumus-Metal-Kordonlu-Dijital-Retro-Kol-Saati-2li-Hediye-Seti-STWA010169_360x.jpg?v=1649223484"
-          },
-          {
-             id:2,
-             name:"Aqua di Polo Kadın Gümüş Metal Kordonlu Yıldız Desenli Dijital Retro Saat APWA063800",
-             price:499.00,
-             photourl:"https://cdn.shopify.com/s/files/1/0485/5264/0672/products/Aqua-di-Polo-Kadin-Gumus-Metal-Kordonlu-Yildiz-Desenli-Dijital-Retro-Saat-APWA063800_360x.jpg?v=1653899449",
 
-          },
-          {
-             id:3,
-             name:"Aqua di Polo Unisex Siyah Metal Kordonlu Mermer Desenli Dijital Retro Saat APWA064300",
-             price:499.00,
-             photourl:"https://cdn.shopify.com/s/files/1/0485/5264/0672/products/Aqua-di-Polo-Unisex-Siyah-Metal-Kordonlu-Mermer-Desenli-Dijital-Retro-Saat-APWA064300_360x.jpg?v=1653899081",
-          },
-          {
-             id:4,
-             name:"Aqua di Polo Unisex Gümüş Metal Kordonlu Mermer Desenli Dijital Retro Saat APWA064400",
-             price:499.00,
-             photourl:"https://cdn.shopify.com/s/files/1/0485/5264/0672/products/Aqua-di-Polo-Unisex-Gumus-Metal-Kordonlu-Mermer-Desenli-Dijital-Retro-Saat-APWA064400_360x.jpg?v=1651218958"
-          }
-          
-        ]
-        
-    }
+export default defineComponent({
+ setup() {
+ let {data} =useFetch('/api/products');
+ const router =useRoute();
+
+ const ca=router.params.Categories;
+
+ let data2=data.value.filter((t)=>t.category==ca);
+ 
+
+ 
+   return {data2,ca};
+
+ }
+
+})
+
+</script> 
+<!-- <script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+ setup() {
+ var data = useFetch('/api/products').data;
+ var router = useRoute();
+ var ca = router.params.Categories;
+ var data2 = data.value.filter(function (t) { return t.category == ca; });
+  return {data2,ca}
  },
-}
-</script>
+})
+</script> -->
+
+
+<!-- <script setup>
+const router =useRoute();
+const { data }=await useFetch('/api/products')
+
+const ACategory=computed(() => {
+
+  const cat =router.params.Categories;
+  
+  
+  
+ return cat;
+});
+************************* VUE2*******************
+data(){
+  const { data }= useFetch('/api/products')
+  const router =useRoute();
+  const ca   =router.params.Categories;
+   return {
+     data,ca
+   }
+ },
+ computed: {
+  ACategory () {
+  const router =useRoute();
+  const  cat  =router.params.Categories;
+ 
+
+    return cat;
+  }
+ },
+ 
+
+</script>  -->
+
+<!-- 
+setup() {
+ const {data} =useFetch('/api/products');
+  
+ const ACategory=computed(() => {
+    const router =useRoute();
+    const ca=router.params.Categories;
+    console.log(ca)
+    data.value.filter((t)=>t.category==(ca))
+   
+    return ca;
+ });
+ 
+
+ return {data,ACategory};
+} -->

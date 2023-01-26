@@ -10,7 +10,9 @@
     <section  id="carouselExampleControls"  class="carousel slide"  data-bs-ride="carousel" >
   <section class="carousel-inner" >
     <div class="carousel-item active">
-        <a href="#"  id="pcorusel" class="card" style="width: 15rem; height: 23rem; ">
+        <a href="#"  id="pcorusel" class="card" style="width: 15rem; height: 23rem; "
+        
+        >
             <span id="rid">
                 <img id="resim" src="https://cdn.shopify.com/s/files/1/0485/5264/0672/products/Aqua-di-Polo-Kadin-Gumus-Metal-Kordonlu-Yildiz-Desenli-Dijital-Retro-Saat-APWA063800.jpg?v=1653899466" class="card-img-top" alt="...">
             </span>

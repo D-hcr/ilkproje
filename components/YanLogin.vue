@@ -41,7 +41,7 @@
                     <input id="pswi" class="form-control" type="password" value="" placeholder="Şifre" name="customer[password]">
                   </div>
                     <span id="login" class="action-btn">
-                      <input id="üyeg" type="submit" class="btn btn-login" value="Üye Girişi">
+                      <input id="üyeg" type="submit" @click="DegerAl" class="btn btn-login" value="Üye Girişi">
                         <a id="pswun" class="text-hover forgot-password" href="#">
                           Şifremi Unuttum
                         </a>
@@ -57,6 +57,22 @@
     </div>
 </template>
 
-<script setup lang="ts">
+<script >
 
+
+export default {
+
+   methods:{
+     DegerAl() {
+       var emailx=document.getElementById("email").value;
+       var pass=document.getElementById("pswi").value;
+       let {data} =useFetch('/api/users');
+       console.log(data._rawValue[1].email);
+       
+      
+
+      
+     }
+   }
+}
 </script>

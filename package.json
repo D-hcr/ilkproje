@@ -8,7 +8,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "3.0.0"
+    "nuxt3": "latest"
   },
   "dependencies": {
     "bootstrap": "^5.2.3",

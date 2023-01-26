@@ -1,14 +1,11 @@
 <template>
    
     <div>
-    <header>
-       <Navbar/>
-       <kategoriler/>
-    </header>
+   
     <body>
         <div id="cardPr" class="card mb-3" style="max-width: 1000px; border-color: white;">
   <div   class="row g-0" 
-  v-for="(product , index) in data3"
+  v-for="(product , index) in ydata"
         :key="'product-'+ index "
   
   >
@@ -38,6 +35,7 @@
   </div>
 </div>
     </body>
+    
   </div>
  </template>
 
@@ -95,23 +93,36 @@
   font-weight: bold;
   font-size: 25px;
 }
+#ffdü {
+  width: 1400px;
+ 
+  position: relative;
+  margin-top: 20px;
+  height: 600px;
+  left: 50px;
+}
+#haci {
+  position: relative;
+  top: 150px;
+}
+#yan2 {
+  float: left;
+}
 </style>
 
-<script>
-export default defineComponent({
-  setup() {
-  let {data} =useFetch('/api/products');
-  const router =useRoute();
- console.log(data)
- const ca=router.params.UrunDetay;
-  console.log(ca)
-  let data3=data.value.filter((t)=>t.id==ca);
- 
- 
-  
-    return {data3,ca};
+<script   >
 
-  }
+export default defineComponent({
+  async setup() {
+  let ydata = ref(null);
+  const {data,ca,customFields} =await useProductById
+  
+
+
+  
+  return {data,ca,customFields,ydata}
+} 
 
 })
-</script>
+
+</script>   
