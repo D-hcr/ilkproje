@@ -7,26 +7,31 @@
  <body>
   <section id="bölüm" class="header-main border-bottom ">
    <div><nuxt-link  id="asd" to="/">AnaSayfa</nuxt-link></div>
-   <span    
+   <span id="sapr"   
    class="sidebar_collection-title_custom">
-     {{ $route.params.Categories }}
+     {{ ca }}
    </span>
    
    <div id="cont">
-      <div v-for="(product , index) in data"
+      <div   v-for="(product , index) in data2"
+     
            :key="'product-'+ index " 
-      id="cardana">
-        <a id="carda" href="#"  style="width: 18rem;">
-        <div id="cardp" class="card" style="width: 18rem; ">
+            
+      id="cardana"
+     
+      >
+      <div  >
+      <nuxt-link  id="carda" v-to="'/Urun/'+product.name"  style="width: 18rem;">
+        <div id="cardp" class="card" style="width: 18rem;" >
            <img :src="product.imgUrl" class="card-img-top" >
         </div>
         <p id="pt" >{{product.name}}</p>
         
-     </a>
+      </nuxt-link>
  
            <p id="pricekat">{{product.price}}</p>
            <em id="simgetl" >TL</em>
- 
+         </div>
       </div>
      
    </div>
@@ -97,8 +102,89 @@
     font-weight: bold;
  }
  </style>
+
+<script>
+
+export default defineComponent({
+  setup() {
+  let {data} =useFetch('/api/products');
+  const router =useRoute();
+
+  const ca=router.params.Categories;
  
-<script setup>
+  let data2=data.value.filter((t)=>t.category==ca);
+  
+ 
+  
+    return {data2,ca};
+
+  }
+
+})
+
+</script> 
+<!-- <script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  setup() {
+  var data = useFetch('/api/products').data;
+  var router = useRoute();
+  var ca = router.params.Categories;
+  var data2 = data.value.filter(function (t) { return t.category == ca; });
+   return {data2,ca}
+  },
+})
+</script> -->
+
+ 
+<!-- <script setup>
+const router =useRoute();
 const { data }=await useFetch('/api/products')
+
+const ACategory=computed(() => {
+
+   const cat =router.params.Categories;
+   
+   
+   
+  return cat;
+});
+************************* VUE2*******************
+data(){
+   const { data }= useFetch('/api/products')
+   const router =useRoute();
+   const ca   =router.params.Categories;
+    return {
+      data,ca
+    }
+  },
+  computed: {
+   ACategory () {
+   const router =useRoute();
+   const  cat  =router.params.Categories;
+  
+
+     return cat;
+   }
+  },
+  
+
+</script>  -->
+
+<!-- 
+setup() {
+  const {data} =useFetch('/api/products');
+   
+  const ACategory=computed(() => {
+     const router =useRoute();
+     const ca=router.params.Categories;
+     console.log(ca)
+     data.value.filter((t)=>t.category==(ca))
     
-</script>
+     return ca;
+  });
+  
+ 
+  return {data,ACategory};
+ } -->

@@ -5,40 +5,40 @@
           <ul id="uc" class="navbar-nav">
             <div class="dropdown">
               <li class="nav-item">
-                <button id="k" class="dropbtn">KADIN
-                  <a class="nav-link active" aria-current="page" href="http://localhost:3000/Kategori/Kadin"></a>
-                </button>       
+                
+                  <nuxt-link id="k" class="dropbtn" aria-current="page" to="/Kategori/Kadin">KADIN</nuxt-link>
+                       
                 <section class="dropdown-content">
-                  <a href="http://localhost:3000/Kategori/KadinC">ÇANTA </a>
-                  <a href="http://localhost:3000/Kategori/KadinD">PARFÜM &amp; DEODORANT </a>
-                  <a href="http://localhost:3000/Kategori/KadinA">AKSESUAR </a>
-                  <a href="http://localhost:3000/Kategori/KadinS">SAAT </a>
-                  <a href="http://localhost:3000/Kategori/KadinG">GÜNEŞ GÖZLÜĞÜ </a>
-                  <a href="http://localhost:3000/Kategori/KadinSw">SWEATSHİRT </a>
+                  <nuxt-link to="/Kategori/KadinC">ÇANTA </nuxt-link>
+                  <nuxt-link to="/Kategori/KadinD">PARFÜM &amp; DEODORANT </nuxt-link>
+                  <nuxt-link to="/Kategori/KadinA">AKSESUAR </nuxt-link>
+                  <nuxt-link to="/Kategori/KadinS">SAAT </nuxt-link>
+                  <nuxt-link to="/Kategori/KadinG">GÜNEŞ GÖZLÜĞÜ </nuxt-link>
+                  <nuxt-link to="/Kategori/KadinSw">SWEATSHİRT </nuxt-link>
                 </section>
               </li>
             </div>  
             <div class="dropdown">
               <li class="nav-item">
-                <button id="k" class="dropbtn">ERKEK
-                  <a class="nav-link" href="http://localhost:3000/Kategori/Erkek"></a>
-                </button>
+              
+                  <nuxt-link id="k" class="dropbtn" to="/Kategori/Erkek">ERKEK</nuxt-link>
+                
                 <section class="dropdown-content">
                   
-                  <a href="http://localhost:3000/Kategori/ErkekS">SAAT </a>
-                  <a href="http://localhost:3000/Kategori/ErkekC">ÇANTA </a>
-                  <a href="http://localhost:3000/Kategori/ErkekSw">SWEATSHİRT </a>
-                  <a href="http://localhost:3000/Kategori/ErkekA">AKSESUAR </a>
-                  <a href="http://localhost:3000/Kategori/ErkekG">GÜNEŞ GÖZLÜĞÜ </a>
-                  <a href="http://localhost:3000/Kategori/ErkekD">PARFÜM &amp; DEODORANT </a>            
+                  <nuxt-link to="/Kategori/ErkekS">SAAT </nuxt-link>
+                  <nuxt-link to="/Kategori/ErkekC">ÇANTA </nuxt-link>
+                  <nuxt-link to="/Kategori/ErkekSw">SWEATSHİRT </nuxt-link>
+                  <nuxt-link to="/Kategori/ErkekA">AKSESUAR </nuxt-link>
+                  <nuxt-link to="/Kategori/ErkekG">GÜNEŞ GÖZLÜĞÜ </nuxt-link>
+                  <nuxt-link to="/Kategori/ErkekD">PARFÜM &amp; DEODORANT </nuxt-link>            
                 </section>
               </li>
             </div> 
             <li class="nav-item">
-              <a href="http://localhost:3000/Kategori/RetroSaat" id="k" class="nav-link">RETRO SAAT</a> 
+              <nuxt-link to="/Kategori/RetroSaat" id="k" class="nav-link">RETRO SAAT</nuxt-link> 
             </li>  
             <li class="nav-item">
-              <a href="http://localhost:3000/Kategori/EkranGöz" id="k" class="nav-link" >EKRAN GÖZLÜĞÜ</a>
+              <nuxt-link to="/Kategori/EkranGöz" id="k" class="nav-link" >EKRAN GÖZLÜĞÜ</nuxt-link>
             </li>
          
         </ul>
@@ -165,3 +165,7 @@ ul li{
   left: 600px;
 }
   </style>
+
+<script lang="ts">
+
+</script>
