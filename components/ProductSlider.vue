@@ -228,4 +228,12 @@
 
 <script>
 
+
+export default defineComponent({
+    setup() {
+        let {data} =useFetch('/api/products');
+
+        return {data};
+    },
+})
 </script>

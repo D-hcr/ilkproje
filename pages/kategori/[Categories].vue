@@ -21,7 +21,7 @@
      
       >
       <div  >
-      <nuxt-link  id="carda" v-to="'/Urun/'+product.name"  style="width: 18rem;">
+      <nuxt-link  id="carda" v-bind:to="'/Urun/'+(product.id)"  style="width: 18rem;">
         <div id="cardp" class="card" style="width: 18rem;" >
            <img :src="product.imgUrl" class="card-img-top" >
         </div>
