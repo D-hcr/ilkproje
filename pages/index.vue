@@ -2,8 +2,8 @@
   
     <div>
     <header>
-    <Navbar/>
-    <Kategoriler/>
+    <navk/>
+    <kate/>
     </header>
     <body>
     <Slider/>
@@ -25,8 +25,10 @@
   
   <script>
 import Altfotter from '~~/layouts/Altfotter.vue';
-
+import navk from '~~/layouts/Navbar.vue';
+import kate from '~~/layouts/Kategoriler.vue';
   export default {
-    components: { Altfotter }
+    components: { Altfotter , navk ,kate}
+    
 }
   </script>

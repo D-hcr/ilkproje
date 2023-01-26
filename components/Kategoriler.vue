@@ -35,10 +35,10 @@
               </li>
             </div> 
             <li class="nav-item">
-              <nuxt-link to="/Kategori/RetroSaat" id="k" class="nav-link">RETRO SAAT</nuxt-link> 
+              <a href="http://localhost:3000/Kategori/RetroSaat" id="k" class="nav-link">RETRO SAAT</a> 
             </li>  
             <li class="nav-item">
-              <nuxt-link to="/Kategori/EkranGozlugu" id="k" class="nav-link" >EKRAN GÖZLÜĞÜ</nuxt-link>
+              <a href="http://localhost:3000/Kategori/EkranGöz" id="k" class="nav-link" >EKRAN GÖZLÜĞÜ</a>
             </li>
          
         </ul>

@@ -228,11 +228,11 @@
 <style>
 .footer {
     height: 500px;
-    position: relative;
+    position:absolute;
     top: 900px;
 }
 #adp {
-    position: relative;
+    position: absolute;
     font-size: medium;
     font-weight: 900;
 }
@@ -241,7 +241,7 @@ ul { list-style-type:none; }
     font-size: 14px;
 }
 #yard {
-    position: relative;
+    position: absolute;
     font-size: medium;
     font-weight: 900;
 }
@@ -250,7 +250,7 @@ ul { list-style-type:none; }
     width: 300px;
 }
 #psayfa {
-    position: relative;
+    position: absolute;
     font-size: medium;
     font-weight: 900;
 }
@@ -265,7 +265,7 @@ ul { list-style-type:none; }
     float: left;
 }
 .foot-title {
-    position: relative;
+    position: absolute;
     left: 62px;
     font-size: medium;
     font-weight: 900;
@@ -282,7 +282,7 @@ ul { list-style-type:none; }
 
 }
 #cardtür {
-    position: relative;
+    position: absolute;
     top: 165px;
     
 }
@@ -309,7 +309,7 @@ a {
     left: 550px;
 }
 #resimtıklakare {
-    position: relative;
+    position: absolute;
     left: 100px;
     top: -35px;
 }
